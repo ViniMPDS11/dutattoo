@@ -1,4 +1,4 @@
-import styles from "./Form.module.css";
+import styles from "./form.module.css";
 import Fieldset from "../Fieldset/Fieldset";
 
 export default function Form(props) {
