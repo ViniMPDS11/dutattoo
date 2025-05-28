@@ -10,10 +10,11 @@ export default function Contact() {
         <ContactCard href={`https://api.whatsapp.com/send?phone=5511985885233`} contactName="Telefone" contactContent="+55 11 98588-5233">
             <MdOutlineLocalPhone color="#FFD700" size={35} />
         </ContactCard>
-        <ContactCard href={`https://api.whatsapp.com/send?phone=5511985885233`} contactName="Telefone" contactContent="+55 11 98588-5233">
+        <ContactCard href={`https://www.instagram.com/dutattooartena/`} contactName="Instagram" contactContent="dutattooartena
+">
             <FaInstagram color="#FFD700" size={35} />
         </ContactCard>
-        <ContactCard href={`https://api.whatsapp.com/send?phone=5511985885233`} contactName="Telefone" contactContent="+55 11 98588-5233">
+        <ContactCard href={`https://www.facebook.com/profile.php?id=100057202496885&locale=pt_BR`} contactName="Facebook" contactContent="Dutattoo arte na pele">
             <FaFacebook color="#FFD700" size={35} />
         </ContactCard>
     </div>
