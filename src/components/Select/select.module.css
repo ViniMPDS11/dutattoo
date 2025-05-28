@@ -1,0 +1,13 @@
+select {
+    background-color: #373737;        
+    color: white;                       
+    padding: 0.5rem;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+}
+
+select:focus {
+    outline: unset;
+}

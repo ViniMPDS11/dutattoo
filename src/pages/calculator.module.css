@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.formGroup {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.formActions {
+  text-align: center;
+}
+
+.warning {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 8px;
+  border: 2px solid #efcb00;
+  border-radius: 5px;
+  background-color: #efcb0016;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 2px solid #006400;
+  border-radius: 5px 0 0 5px;
+  background-color: #00640018;
+  flex: 1;
+}
+
+.result span {
+  font-weight: bold;
+}
+
+.resultDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.resultDiv a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 8px;
+  color: white;
+  background-color: #006400;
+  border-radius: 0 5px 5px 0;
+}
+
+.resultDiv svg {
+  margin-right: .5rem;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+.title span {
+  color: #FFD700;
+  font-weight: 900;
+}
+
+.error {
+  font-size: 12px;
+  color: #e81313;
+}
+
+.required {
+  font-weight: 500;
+  color: white;
+}
+
+.required::after {
+  content: '*';
+  color: #e81313;
+  margin-left: 2px;
+}

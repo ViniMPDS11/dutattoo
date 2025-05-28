@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: .75rem;
+    height: 80%;
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.list li .link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+}
+
+.list li .link::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    top: 0;
+    width: 0;
+    background-color: unset;
+    transition: width 1s ease-in-out;
+}
+
+.list li .activeLink {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #FFD700;
+    text-decoration: none;
+    height: 100%;
+}
+
+.list li .activeLink::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    transition: width .2s ease-in-out;
+}
+
+.list li a:hover {
+    color: #FFD700;
+}

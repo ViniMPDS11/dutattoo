@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.span {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+label {
+    width: fit-content;
+}
