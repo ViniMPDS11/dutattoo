@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Calculator from './pages/Calculator';
 import { Routes, Route } from 'react-router-dom';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <main>
         <Routes>
+          <Route path="/*" element={<NotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="/contato" element={<Contact />} />
           <Route path="/orcamento" element={<Calculator />} />

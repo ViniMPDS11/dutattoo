@@ -13,7 +13,6 @@ export default function Home() {
             <p>Desde 2002 transformando pele em arte</p>
             <p>+ de 15 mil clientes atendidos</p>
             <p>+ de 20 mil tatuagens realizadas</p>
-            <p>Especialista em realismo, fine line e coberturas</p>
             <p><strong>Jesus é o centro de tudo.</strong></p>
             <Link to="/orcamento" className={style.button}>
             Fazer orçamento

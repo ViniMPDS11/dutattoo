@@ -9,9 +9,11 @@
     cursor: pointer;
 }
 
-.button:hover {
-    background-color: #FFD700;
-    color: #222;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+@media (hover: hover) and (pointer: fine) {
+    .button:hover {
+        background-color: #FFD700;
+        color: #222;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+    }
 }

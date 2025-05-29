@@ -283,20 +283,20 @@ Detalhamento: ${nomesPorDetalhamento[form.detail]}`;
                     preco > 0 &&
                     <div className={style.resultDiv}>
                         <span className={style.result}>
-                            <FaMoneyBillWave style={{color: "#006400"}} size={28} />
+                            <FaMoneyBillWave style={{color: "#006400", flexShrink: 0}} size={28} />
                             <p>
                                 O valor estimado é de:{' '}
                                 <span>R${preco},00</span>
                             </p>
                         </span>
-                        <a target="_blank" href={`https://wa.me/5511958709377?text=${encodeMesage}`}>
-                            <FaWhatsapp size={28} />
+                        <a target="_blank" href={`https://wa.me/5511985885233?text=${encodeMesage}`}>
+                            <FaWhatsapp style={{flexShrink: 0}} size={28} />
                             Enviar mensagem
                         </a>
                     </div>
                 }
                 <span className={style.warning}>
-                    <IoWarning style={{color: "#efcb00"}} size={88} />
+                    <IoWarning style={{color: "#efcb00", flexShrink: 0}} size={80} />
                     <p>
                         O valor apresentado é apenas uma <strong>estimativa automática</strong> com base nas informações fornecidas.<br />
                         O <strong>preço final será definido pelo tatuador</strong>, após avaliação do local, estilo e complexidade da tatuagem.

@@ -14,11 +14,12 @@
 .warning {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 8px;
   padding: 8px;
   border: 2px solid #efcb00;
   border-radius: 5px;
   background-color: #efcb0016;
+  align-items: center;
 }
 
 .result {
@@ -61,7 +62,6 @@
   color: white;
   font-size: 4rem;
   text-align: center;
-  line-height: 4.5rem;
 }
 
 .title span {
@@ -83,4 +83,36 @@
   content: '*';
   color: #e81313;
   margin-left: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .resultDiv {
+    flex-direction: column;
+  }
+
+  .resultDiv .result {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .resultDiv a {
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+  }
+
+  .warning {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 2rem;
+  }
 }

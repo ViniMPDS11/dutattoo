@@ -1,7 +1,9 @@
 .contactList {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 4rem auto 0 auto;
     width: fit-content;
     gap: 4rem;
+    flex-wrap: wrap;
 }
