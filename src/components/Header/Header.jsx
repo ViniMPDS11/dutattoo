@@ -39,14 +39,14 @@ export default function Header() {
                         <IoCloseOutline style={{color: "white"}} size={40} />
                     }
                 </button>
-                <Link onClick={() => setToggleButton(!toggleButton)} to="/">
+                <Link onClick={() => setToggleButton(false)} to="/">
                     <img title='Início' src={Logo} alt="Logotipo" />
                 </Link>
                 <List className={null} />
             </div>
             {
                 shouldRender === true &&
-                <List clickLi={() => setToggleButton(!toggleButton)} className={style.listColumn} />
+                <List clickLi={() => setToggleButton(false)} className={style.listColumn} />
             }
         </header>
     );
