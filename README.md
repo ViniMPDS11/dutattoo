@@ -1,6 +1,6 @@
 # <h1 align="center">DUTATTOO</h1>
 
-A web application designed to simplify the tattoo quote process quickly and easily. With an interactive form, users can simulate a tattoo quote and contact the tattoo artist directly via WhatsApp. Built with React.js and CSS Modules, with no user authentication or database.
+A web application designed to simplify the tattoo quote process quickly and easily. With an interactive form, users can simulate a tattoo quote and contact the tattoo artist directly via WhatsApp. Built with React.js and CSS Modules.
 
 ## 📸 Application Interface
 
